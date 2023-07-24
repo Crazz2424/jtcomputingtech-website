@@ -37,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     padding: 2rem 7%;
-    background: yellowgreen;
+    background: transparent;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -225,4 +225,12 @@ section {
     border-right: 384px solid var(--main-color);
     border-bottom: 384px solid var(--main-color);
     border-left: 384px solid transparent;
+}
+
+.home-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100;
+    pointer-events: none;
 }

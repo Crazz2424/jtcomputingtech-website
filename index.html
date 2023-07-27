@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Testing ......">
-    <meta property="og:title" content="Testing">
-    <meta property="og:description" content="Testing ......">
+    <meta name="description" content="JTComputing ......">
+    <meta property="og:title" content="JTComputing">
+    <meta property="og:description" content="JTComputing ......">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
-    <title>Testing</title>
+    <title>JTComputing</title>
     
+  <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <!--box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -23,13 +26,13 @@
 <body>
     <!-- header design -->
   <header class="header">
-        <a href="#" class="logo">Testing</a>
+        <a href="#" class="logo">JTComputing</a>
         
         <nav class="navbar">
           <a href="#home" class="active">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">portfolio</a>
           <a href="#contact">Contact</a>
         </nav>
   
@@ -40,7 +43,7 @@
   <section class="home" id="home">
     <div class="home-content">
       <h3>Welcome to</h3>
-      <h1>Testing</h1>
+      <h1>JTComputing</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corporis nam error officiis atque beatae molestias voluptatibus debitis.</p>
 
       <div class="social-media">
@@ -90,8 +93,138 @@
 
   </section>
 
+  <!-- about section-->
+    <section class="about" id="about">
+      <div class="about-img">
+          <img src="images/about.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I am here to assist you with all your technical needs</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore, tenetur voluptates iste sapiente vel iure porro illum ex obcaecati repellat repellendus nulla labore perferendis consectetur similique impedit aliquam? Doloribus sunt perspiciatis temporibus voluptatum iste, ipsa distinctio laborum. Hic, ad.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+    </section>
+
+    <!-- services section design -->
+<section class="services" id="services">
+  <h2 class="heading">My <span>Services</span></h2>
+
+  <div class="services-container">
+    <div class="services-box">
+      <i class='bx bx-desktop'></i>
+      <h3>PC & Laptop Repair</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magnam obcaecati eligendi, nihil beatae iure dignissimos dolorum nesciunt debitis ipsa ex vero qui omnis cum, maxime soluta modi saepe dicta.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class='bx bxl-chrome'></i>
+      <h3>Web Development</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magnam obcaecati eligendi, nihil beatae iure
+        dignissimos dolorum nesciunt debitis ipsa ex vero qui omnis cum, maxime soluta modi saepe dicta.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="services-box">
+    <i class='bx bx-phone-call'></i>
+      <h3>Phone Setup</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magnam obcaecati eligendi, nihil beatae iure
+        dignissimos dolorum nesciunt debitis ipsa ex vero qui omnis cum, maxime soluta modi saepe dicta.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="services-box">
+        <i class='bx bx-tv'></i>
+      <h3>AV Services</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magnam obcaecati eligendi, nihil beatae iure
+        dignissimos dolorum nesciunt debitis ipsa ex vero qui omnis cum, maxime soluta modi saepe dicta.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- testimonial section -->
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Customer <span>portfolio</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="images/portfolio1.jpg" alt="">
+
+      <div class="portfolio-layer">
+        <h4>Customer 1</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio2.jpg" alt="">
+    
+      <div class="portfolio-layer">
+        <h4>Customer 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio3.jpg" alt="">
+    
+      <div class="portfolio-layer">
+        <h4>Customer 3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+  <!-- Testimonial design -->
+  <div class="testimonial-container">
+    <h2 class="heading">Valuable <span>Testimonials</span></h2>
+
+    <div class="testimonial-wrapper">
+      <div class="testimonial-box mySwiper">
+        <div class="testimonial-content swiper-wrapper">
+          <div class="testimonial-slide swiper-slide">
+            <img src="images/testimonial1.jpg" alt="">
+            <h3>Jackson Levi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla, quo minus exercitationem ex facilis fugiat molestias accusamus modi ratione eum voluptatum deleniti, quis natus fuga ab cum eius dolore laboriosam! Magnam, accusantium. Sed totam possimus eligendi eum cupiditate incidunt quo sint expedita, vero rem. Molestiae dolor impedit explicabo dolore quidem officiis consequuntur. Accusantium similique eaque, perferendis accusamus temporibus doloremque?</p>
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="images/testimonial2.jpg" alt="">
+            <h3>Julian Grayson</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla, quo minus exercitationem ex facilis fugiat
+              molestias accusamus modi ratione eum voluptatum deleniti, quis natus fuga ab cum eius dolore laboriosam! Magnam,
+              accusantium. Sed totam possimus eligendi eum cupiditate incidunt quo sint expedita, vero rem. Molestiae dolor
+              impedit explicabo dolore quidem officiis consequuntur. Accusantium similique eaque, perferendis accusamus temporibus
+              doloremque?</p>
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="images/testimonial3.jpg" alt="">
+            <h3>Flora Ocean</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla, quo minus exercitationem ex facilis fugiat
+              molestias accusamus modi ratione eum voluptatum deleniti, quis natus fuga ab cum eius dolore laboriosam! Magnam,
+              accusantium. Sed totam possimus eligendi eum cupiditate incidunt quo sint expedita, vero rem. Molestiae dolor
+              impedit explicabo dolore quidem officiis consequuntur. Accusantium similique eaque, perferendis accusamus temporibus
+              doloremque?</p>
+          </div>
+        </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact section design-->
+
+
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <!-- custom js -->
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>

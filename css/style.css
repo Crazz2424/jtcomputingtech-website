@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
-    --text-color: #333;
+    --bg-color: #0b061f;
+    --text-color: #fdfdfd;
     --main-color: #754ef9;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
@@ -24,10 +24,12 @@
     color: var(--bg-color);
 }
 
-.dark-mode {
-    --bg-color: #0b061f;
-    --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .7);
+.light-mode {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #754ef9;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0, 0, 0, .2);
 }
 
 html {
@@ -96,13 +98,13 @@ body {
     opacity: .7;
 }
 
-#darkMode-icon {
+#lightMode-icon {
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
 }
 
-.header.sticky #darkMode-icon {
+.header.sticky #lightMode-icon {
     color: var(--text-color);
     opacity: .9;
 }
@@ -731,7 +733,7 @@ span {
         display: block;
     }
 
-    #darkMode-icon {
+    #lightMode-icon {
         position: absolute;
         right: 7rem;
         font-size: 2.6rem;
@@ -887,7 +889,7 @@ span {
         font-size: 50%;
     }
 
-    #darkMode-icon {
+    #lightMode-icon {
         right: 6rem;
     }
 

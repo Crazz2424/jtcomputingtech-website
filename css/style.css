@@ -72,7 +72,7 @@ body {
     font-size: 1.7rem;
     color: var(--white-color);
     font-weight: 500;
-    margin-right: 3.5rem;
+    margin-right: 2rem;
 }
 
 .header.sticky .navbar a {
@@ -260,6 +260,17 @@ section {
 
 .home .profession i {
     font-size: 3.8rem;
+    margin-left: -35px;
+}
+
+.home .profession .bx-tv {
+    font-size: 3.8rem;
+    margin-left: 0px;
+}
+
+.home .profession .bxl-chrome {
+    font-size: 3.8rem;
+    margin-left: -60px;
 }
 
 .home .profession h3 {
@@ -468,7 +479,7 @@ span {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 5rem 1rem;
+    padding: 10rem 1rem;
 }
 
 .testimonial-container .testimonial-wrapper {
@@ -624,7 +635,7 @@ span {
     html {
         font-size: 55%;
     }
-
+    
     .home .profession-container .profession-box {
         right: -10%;
     }

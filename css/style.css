@@ -65,6 +65,7 @@ body {
     color: var(--main-color);
     font-weight: 600;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -270,7 +271,7 @@ section {
 
 .home .profession .bxl-chrome {
     font-size: 3.8rem;
-    margin-left: -75px;
+    margin-left: 2px;
 }
 
 .home .profession .bx-signal-5 {
@@ -949,8 +950,44 @@ span {
 }
 
 @media (max-width: 365px) {
+
     .about-img img {
         width: 90vw;
+    }
+    
+    .home .profession .bxl-chrome {
+
+        margin-left: -10px;
+    }
+    
+    .home .profession .bx-signal-5 {
+        font-size: 3.8rem;
+        margin-left: -30px;
+    }
+
+    .home .profession .bx-tv {
+        font-size: 3.8rem;
+        margin-left: 10px;
+    }
+
+    .home .profession .bx-desktop {
+        font-size: 3.8rem;
+        margin-left: -30px;
+    }
+    .home .profession-box .profession:nth-child(1) { /*PC/Laptop Repair */
+        transform: rotate(-90deg) translate(-120px, -200px);
+    }
+
+    .home .profession-box .profession:nth-child(2) { /*Web design*/
+        transform: rotate(0deg) translate(-3px, -325px);
+    }
+
+    .home .profession-box .profession:nth-child(3) { /*Phone & Network */
+        transform: rotate(90deg) translate(-115px, -455px);
+    }
+
+    .home .profession-box .profession:nth-child(4) { /*AV Services */
+        transform: rotate(180deg) translate(-175px, -325px);
     }
 }
 
@@ -958,4 +995,5 @@ span {
     .home-content h1 {
         font-size: 4.5rem;
     }
+        
 }

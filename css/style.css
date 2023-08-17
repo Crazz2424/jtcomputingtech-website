@@ -265,10 +265,20 @@ section {
 
 .home .profession .bx-tv {
     font-size: 3.8rem;
-    margin-left: 0px;
+    margin-left: 18px;
 }
 
 .home .profession .bxl-chrome {
+    font-size: 3.8rem;
+    margin-left: -75px;
+}
+
+.home .profession .bx-signal-5 {
+    font-size: 3.8rem;
+    margin-left: -60px;
+}
+
+.home .profession .bx-desktop {
     font-size: 3.8rem;
     margin-left: -60px;
 }

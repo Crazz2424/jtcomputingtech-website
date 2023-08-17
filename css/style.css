@@ -951,10 +951,15 @@ span {
 
 @media (max-width: 365px) {
 
-    .navbar {
-        margin-right: 5px;
+    #lightMode-icon{
+        right:15rem;
     }
     
+    #menu-icon {
+        position: absolute;
+        right: 10rem;
+    }
+
     .about-img img {
         width: 90vw;
     }

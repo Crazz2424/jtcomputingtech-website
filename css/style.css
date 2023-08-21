@@ -1049,7 +1049,7 @@ span {
     }
 }
 
-@media (min-width: 360px) and (max-width: 389px) {
+@media (min-width: 350px) and (max-width: 389px) {
 
     .about-img img {
         width: 90vw;

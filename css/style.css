@@ -31,7 +31,8 @@
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
-
+/* Typography */
+/* 62.5% of 16px = 10px */
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -40,6 +41,7 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 .header {
@@ -65,7 +67,6 @@ body {
     color: var(--main-color);
     font-weight: 600;
     margin-right: auto;
-    overflow: hidden;
 }
 
 .navbar a {
@@ -836,25 +837,25 @@ span {
         transform-origin: 0;
     }
 
-         .home .profession .bxl-chrome {
-    
-             margin-left: -10px;
-         }
-    
-         .home .profession .bx-signal-5 {
-             font-size: 3.8rem;
-             margin-left: -30px;
-         }
-    
-         .home .profession .bx-tv {
-             font-size: 3.8rem;
-             margin-left: 3px;
-         }
-    
-         .home .profession .bx-desktop {
-             font-size: 3.8rem;
-             margin-left: -1px;
-         }
+    .home .profession .bxl-chrome {
+
+        margin-left: -10px;
+    }
+
+    .home .profession .bx-signal-5 {
+        font-size: 3.8rem;
+        margin-left: -35px;
+    }
+
+    .home .profession .bx-tv {
+        font-size: 3.8rem;
+        margin-left: -30px;
+    }
+
+    .home .profession .bx-desktop {
+        font-size: 3.8rem;
+        margin-left: -30px;
+    }
     
     .home .profession-box .profession:nth-child(1) {
         /*PC/Laptop Repair */
@@ -941,17 +942,17 @@ span {
     }
 
     .home .profession-container .overlay {
-        top: 91rem;
+        top: 90rem;
     }
 
     .home .profession .bxl-chrome {
 
-        margin-left: -10px;
+        margin-left: 5px;
     }
 
     .home .profession .bx-signal-5 {
         font-size: 3.8rem;
-        margin-left: -30px;
+        margin-left: -10px;
     }
 
     .home .profession .bx-tv {
@@ -963,8 +964,6 @@ span {
         font-size: 3.8rem;
         margin-left: -3px;
     }
-
-   
 
    .home .profession-box .profession:nth-child(1) {
     /*PC/Laptop Repair */
@@ -996,13 +995,9 @@ span {
 
 @media (min-width: 390px) and (max-width: 410px) {
 
-    .home {
-        overflow: hidden;
+    html {
+        font-size: 50%
     }
-
-        html {
-            font-size: 50%
-        }
 
     .home .profession-container .overlay {
         top: 87rem;
@@ -1010,12 +1005,12 @@ span {
 
     .home .profession .bxl-chrome {
 
-        margin-left: -10px;
+        margin-left: 5px;
     }
 
     .home .profession .bx-signal-5 {
         font-size: 3.8rem;
-        margin-left: -30px;
+        margin-left: -10px;
     }
 
     .home .profession .bx-tv {
@@ -1056,11 +1051,7 @@ span {
     }
 
     html {
-        font-size: 48%
-    }
-
-    .home {
-        overflow: hidden;
+        font-size: 50%
     }
 
     .home .profession-container .overlay {
@@ -1069,12 +1060,12 @@ span {
 
     .home .profession .bxl-chrome {
 
-        margin-left: -10px;
+        margin-left: 5px;
     }
     
     .home .profession .bx-signal-5 {
         font-size: 3.8rem;
-        margin-left: -30px;
+        margin-left: -10px;
     }
 
     .home .profession .bx-tv {
@@ -1111,11 +1102,51 @@ span {
 
 @media (max-width: 280px) {
     html {
-    font-size: 50%
+    font-size: 47%
 }
 
 .home .profession-container .overlay {
-    top: 80rem;
+    top: 75rem;
+}
+
+.home .profession .bxl-chrome {
+
+    margin-left: 5px;
+}
+
+.home .profession .bx-signal-5 {
+    font-size: 3.8rem;
+    margin-left: -10px;
+}
+
+.home .profession .bx-tv {
+    font-size: 3.8rem;
+    margin-left: 8px;
+}
+
+.home .profession .bx-desktop {
+    font-size: 3.8rem;
+    margin-left: -3px;
+}
+
+.home .profession-box .profession:nth-child(1) {
+    /*PC/Laptop Repair */
+    transform: rotate(-90deg) translate(-120px, -200px);
+}
+
+.home .profession-box .profession:nth-child(2) {
+    /*Web design*/
+    transform: rotate(0deg) translate(-3px, -325px);
+}
+
+.home .profession-box .profession:nth-child(3) {
+    /*Phone & Network */
+    transform: rotate(90deg) translate(-115px, -455px);
+}
+
+.home .profession-box .profession:nth-child(4) {
+    /*AV Services */
+    transform: rotate(180deg) translate(-175px, -325px);
 }
         
 }
